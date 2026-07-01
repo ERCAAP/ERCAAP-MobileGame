@@ -1,0 +1,96 @@
+.root {
+    flex-grow: 1;
+}
+
+.buttons-column {
+    width: 24px;
+    max-width: 24px;
+    min-width: 24px;
+}
+
+.buttons-column__double {
+    width: 48px;
+    max-width: 48px;
+    min-width: 48px;
+}
+
+.buttons-column-row {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.buttons-column-row .unity-button {
+    flex-grow: 1;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.buttons-column-row .unity-button * {
+    -unity-background-scale-mode: scale-to-fit;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    -unity-background-image-tint-color: rgb(196, 196, 196);
+}
+
+#Copy > * {
+    background-image: url('project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/copy.svg?fileID=7388822144124034973&guid=551d69347a8165247bf0a5a6b033818a&type=3#copy');
+}
+
+#Paste > * {
+    background-image: url('project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/paste.svg?fileID=7388822144124034973&guid=00d26c53832092b408e50439c86ae561&type=3#paste');
+}
+
+#Reset > * {
+    background-image: url('project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Refresh.svg?fileID=7388822144124034973&guid=636b337b9a1694e1994089971bb20d2b&type=3#Refresh');
+}
+
+.buttons-row {
+    height: 30px;
+    max-height: 30px;
+    min-height: 30px;
+}
+
+.buttons-row .unity-button {
+    flex-grow: 1;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.buttons-row .unity-button * {
+    -unity-background-scale-mode: scale-to-fit;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    -unity-background-image-tint-color: rgb(196, 196, 196);
+}

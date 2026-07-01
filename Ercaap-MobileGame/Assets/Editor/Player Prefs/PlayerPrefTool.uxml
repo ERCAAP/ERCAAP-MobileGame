@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Player%20Prefs/PlayerPrefTool.uss?fileID=7433441132597879392&amp;guid=fa6ea95044e864faf8633fa44dd64ac9&amp;type=3#PlayerPrefTool" />
+    <uie:Toolbar name="Header">
+        <ui:TextField name="Field_Search" binding-path="search" style="flex-grow: 1; flex-direction: row-reverse;">
+            <ui:VisualElement style="flex-grow: 1; width: 20px; max-width: 20px; min-width: 20px; background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/search.svg?fileID=7388822144124034973&amp;guid=28236d608d245ee44a86743a3c5c8c99&amp;type=3#search&apos;); -unity-background-scale-mode: scale-to-fit; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-background-image-tint-color: rgb(196, 196, 196);" />
+        </ui:TextField>
+        <ui:VisualElement name="ButtonsArea" style="flex-grow: 1; flex-direction: row; flex-shrink: 0; width: 120px; max-width: 120px; min-width: 120px;">
+            <uie:ToolbarToggle focusable="false" name="Toggle_SystemPrefs" binding-path="debugMode" class="toolbar-button">
+                <ui:VisualElement focusable="false" class="toolbar-button__icon" style="width: 100%; flex-shrink: 0; background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Microchip.svg?fileID=7388822144124034973&amp;guid=7ae009261213047c998299c1e0282b5e&amp;type=3#Microchip&apos;);" />
+            </uie:ToolbarToggle>
+            <uie:ToolbarButton parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button_ClearPrefs" focusable="false" class="toolbar-button">
+                <ui:VisualElement class="toolbar-button__icon" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/trash.svg?fileID=7388822144124034973&amp;guid=e4d7e23e624254b0fb9d2a0f3ec25fb0&amp;type=3#trash&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarButton parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button_Refresh" focusable="false" class="toolbar-button">
+                <ui:VisualElement class="toolbar-button__icon" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Refresh.svg?fileID=7388822144124034973&amp;guid=636b337b9a1694e1994089971bb20d2b&amp;type=3#Refresh&apos;);" />
+            </uie:ToolbarButton>
+        </ui:VisualElement>
+    </uie:Toolbar>
+    <ui:VisualElement name="Mid" style="flex-grow: 1; flex-shrink: 1;">
+        <ui:ListView focusable="true" name="System" show-add-remove-footer="false" show-bound-collection-size="false" selection-type="None" binding-path="SystemPreferences" class="system" />
+        <ui:ListView focusable="true" name="Player" show-add-remove-footer="false" show-bound-collection-size="false" selection-type="None" show-border="false" binding-path="FilteredPlayerPreferences" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1;" />
+    <uie:Toolbar name="Footer" class="Footer">
+        <ui:TextField picking-mode="Ignore" name="Field_Key" binding-path="keyInput" style="width: 45%;" />
+        <ui:VisualElement name="Field_Inputs" style="flex-grow: 0.6; flex-direction: row; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px; background-color: rgba(0, 0, 0, 0.3); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(33, 33, 33); border-right-color: rgb(33, 33, 33); border-top-color: rgb(13, 13, 13); border-bottom-color: rgb(33, 33, 33); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-shrink: 0; width: 55%;">
+            <ui:EnumField name="Field_DataType" type="LunaGames.Editor.PlayerPrefsEditor+ValueTypes, Assembly-CSharp-Editor" style="width: 50px; max-width: 50px; min-width: 50px; background-color: rgba(0, 0, 0, 0);" />
+            <ui:TextField picking-mode="Ignore" name="Field_StringValue" binding-path="valueInput" />
+            <ui:IntegerField value="0" name="Field_IntValue" binding-path="intInput" focusable="true" style="display: none;" />
+            <ui:FloatField value="0" name="Field_FloatValue" binding-path="floatInput" style="display: none;" />
+        </ui:VisualElement>
+        <uie:ToolbarButton name="Button_AddKey" class="toolbar-button" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+            <ui:VisualElement class="toolbar-button__icon" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Plus.svg?fileID=7388822144124034973&amp;guid=73fcf5436b3a74823ba2f6b112600b28&amp;type=3#Plus&apos;);" />
+        </uie:ToolbarButton>
+    </uie:Toolbar>
+</ui:UXML>

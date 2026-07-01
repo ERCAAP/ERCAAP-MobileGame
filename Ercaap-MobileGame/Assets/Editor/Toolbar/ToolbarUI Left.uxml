@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Toolbar/Toolbar%20Style.uss?fileID=7433441132597879392&amp;guid=b921f350968b548589efeffd17d4ec6d&amp;type=3#Toolbar Style" />
+    <ui:VisualElement name="LeftRow" style="flex-grow: 1; flex-direction: row; max-height: 19px; justify-content: space-between; height: 19px; min-height: 19px; padding-top: 0; padding-bottom: 0; padding-left: 0; margin-left: 10px; padding-right: 0;">
+        <ui:VisualElement name="Tools" style="flex-shrink: 0; flex-direction: row;">
+            <uie:ToolbarButton parse-escape-sequences="true" display-tooltip-when-elided="true" name="AssetManager" tooltip="Asset Manager">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Box.svg?fileID=7388822144124034973&amp;guid=4702cde4e74d74d0896665f0a13c042a&amp;type=3#Box&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarButton parse-escape-sequences="true" display-tooltip-when-elided="true" name="PrefabPainter" tooltip="Prefab Painter">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Prefab%20Painter.svg?fileID=7388822144124034973&amp;guid=7c42ccf2426a24a51abdf9a07bee92ec&amp;type=3#Prefab Painter&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarButton parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayerPrefs" tooltip="Player Prefs">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Disk.svg?fileID=7388822144124034973&amp;guid=e7e85215ac792410a93931d285576e94&amp;type=3#Disk&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarButton parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScreenShot" tooltip="Screenshot Tool">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Camera.svg?fileID=7388822144124034973&amp;guid=088549530d41844be80ed4052751f3e3&amp;type=3#Camera&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarButton parse-escape-sequences="true" display-tooltip-when-elided="true" name="Replacer" tooltip="Replace Tool">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Replace.svg?fileID=7388822144124034973&amp;guid=23ae63cc5c0924833a0946db829a5cc9&amp;type=3#Replace&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarButton parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScriptManager" tooltip="Script Monitor">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Script%20Monitor.svg?fileID=7388822144124034973&amp;guid=c0e94dcbcbc2e4455a11f1448cd95b12&amp;type=3#Script Monitor&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarButton parse-escape-sequences="true" display-tooltip-when-elided="true" name="SMBuilder" tooltip="State Machine Builder">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Diagram.svg?fileID=7388822144124034973&amp;guid=195f56863bea942e19f51f2d521123b5&amp;type=3#Diagram&apos;);" />
+            </uie:ToolbarButton>
+        </ui:VisualElement>
+        <ui:VisualElement name="StatsArea" style="visibility: hidden;">
+            <ui:Label name="Stats" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CustomLevelArea" style="width: 130px; flex-direction: row;">
+            <uie:ToolbarToggle focusable="false" name="CustomLevelToggle" label="Custom Level: " />
+            <uie:PropertyField name="CustomLevelNo" focusable="true" style="width: 30px; max-width: 30px; min-width: 30px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

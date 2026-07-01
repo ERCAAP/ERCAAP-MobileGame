@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Script%20Monitor/ScriptMonitor.uss?fileID=7433441132597879392&amp;guid=5c0848f7de265c94b9bf51105024c786&amp;type=3#ScriptMonitor" />
+    <ui:VisualElement name="Row">
+        <uie:ToolbarButton name="btn_list" tooltip="Select all GameObjects" focusable="false" />
+        <uie:ToolbarButton name="btn_edit" tooltip="Edit Script" focusable="false" style="width: 50px; max-width: 50px; min-width: 50px; flex-grow: 0;">
+            <ui:VisualElement name="Icon" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/edit.svg?fileID=7388822144124034973&amp;guid=c96b50abef614404597a648ba4d5f32a&amp;type=3#edit&apos;);" />
+        </uie:ToolbarButton>
+    </ui:VisualElement>
+</ui:UXML>

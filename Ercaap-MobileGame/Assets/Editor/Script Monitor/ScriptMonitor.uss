@@ -1,0 +1,45 @@
+#Row {
+    flex-grow: 1;
+    flex-direction: row;
+    flex-shrink: 1;
+    height: 22px;
+    max-height: 22px;
+    min-height: 22px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.unity-toolbar-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+}
+
+.unity-toolbar-button > * {
+    background-image: url('project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Script%20Monitor.svg?fileID=7388822144124034973&guid=c0e94dcbcbc2e4455a11f1448cd95b12&type=3#Script Monitor');
+    -unity-background-image-tint-color: rgb(196, 196, 196);
+    -unity-background-scale-mode: scale-to-fit;
+}

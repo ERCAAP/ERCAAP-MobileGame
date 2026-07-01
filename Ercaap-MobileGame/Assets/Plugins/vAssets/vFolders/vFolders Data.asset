@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb9c12a8c6c949f7af83a3d238359d0, type: 3}
+  m_Name: vFolders Data
+  m_EditorClassIdentifier: 
+  folderDatas_byGuid:
+    keys:
+    - 2b6a1d4d51b054144982cfda8785e1a6
+    - bf9661c2977512b4db50c2846a44b37f
+    - 7e4820a9bd0bae24e84d9d3e8b46ad27
+    - 8d691f765434c48448fe7955b479c59a
+    - 81acc043c5ed3c84b91b5fb3e8ba1fcf
+    - 7b65d0e731f44594699b44e15b2dde9e
+    - a93ce2d2bd3cc6d45a6f8ce1119a50b9
+    - 79ee0d6a9d7591f4da866f2f7a447753
+    - 72977550550060544955d71060627510
+    - 95423ed6474883e42966fd28720ddf19
+    - b8077d08ffcd9424f8e17414cc438502
+    - d6461fb881dde64449ada203c380b61e
+    values:
+    - colorIndex: 0
+      iconNameOrGuid: Material Icon
+    - colorIndex: 0
+      iconNameOrGuid: d_PrefabModel Icon
+    - colorIndex: 0
+      iconNameOrGuid: Prefab Icon
+    - colorIndex: 0
+      iconNameOrGuid: SceneAsset Icon
+    - colorIndex: 0
+      iconNameOrGuid: d_ScriptableObject Icon
+    - colorIndex: 0
+      iconNameOrGuid: cs Script Icon
+    - colorIndex: 0
+      iconNameOrGuid: EditorSettings Icon
+    - colorIndex: 0
+      iconNameOrGuid: d_Shader Icon
+    - colorIndex: 0
+      iconNameOrGuid: Texture Icon
+    - colorIndex: 0
+      iconNameOrGuid: d_VisualEffectAsset Icon
+    - colorIndex: 0
+      iconNameOrGuid: d_PrefabModel On Icon
+    - colorIndex: 0
+      iconNameOrGuid: BoxCollider Icon

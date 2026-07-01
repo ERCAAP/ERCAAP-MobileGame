@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Row" style="flex-grow: 1; flex-direction: row; align-content: center; flex-shrink: 0;">
+        <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" allow-scene-objects="false" name="CurrentMaterial" binding-path="CurrentMaterial" style="flex-grow: 1; flex-basis: 1px;" />
+        <ui:Label text="&gt;&gt;&gt;" style="-unity-text-align: middle-center; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        <uie:ObjectField type="UnityEngine.Material, UnityEngine.CoreModule" allow-scene-objects="false" name="TargetMaterial" binding-path="TargetMaterial" style="flex-grow: 1; flex-basis: 1px;" />
+    </ui:VisualElement>
+</ui:UXML>

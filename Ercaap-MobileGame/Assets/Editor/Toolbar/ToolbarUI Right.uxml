@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Toolbar/Toolbar%20Style.uss?fileID=7433441132597879392&amp;guid=b921f350968b548589efeffd17d4ec6d&amp;type=3#Toolbar Style" />
+    <ui:VisualElement name="RightRow" style="flex-grow: 1; flex-direction: row; max-height: 19px; justify-content: space-between; height: 19px; min-height: 19px; margin-right: 10px;">
+        <uie:Toolbar name="GameSpeedArae" style="width: 230px; height: auto; min-width: 155px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+            <ui:Slider label="Speed: " value="1" high-value="5" show-input-field="false" name="GameSpeedSlider" style="width: 150px; margin-left: 0; margin-right: 1px; margin-bottom: 0;" />
+            <ui:Label text="0" name="CurrentGameSpeed" class="ToolbarSection" style="width: 30px; min-width: 30px; -unity-text-align: middle-center; -unity-font-style: bold; border-left-color: rgb(35, 35, 35); border-right-color: rgb(35, 35, 35); border-top-color: rgb(35, 35, 35); border-bottom-color: rgb(35, 35, 35); border-left-width: 1px; border-right-width: 1px;" />
+            <uie:ToolbarButton name="SpeedReset" class="ToolbarSection" style="max-width: 25px; width: 25px; min-width: 25px; border-left-width: 1px;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Refresh.svg?fileID=7388822144124034973&amp;guid=636b337b9a1694e1994089971bb20d2b&amp;type=3#Refresh&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarToggle name="ToggleMouse" class="unity-toolbar-button" style="width: 25px; max-width: 25px; min-width: 25px; background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Toogle%20Scroll.svg?fileID=7388822144124034973&amp;guid=15c1a699498fe46abaa716736b6253e6&amp;type=3#Toogle Scroll&apos;);" />
+        </uie:Toolbar>
+        <ui:VisualElement name="ButtonsArea" style="flex-grow: 1; flex-direction: row-reverse;">
+            <uie:ToolbarButton name="PackageManager" icon-image="project://database/Assets/-TEXTURES/Editor/box.png?fileID=2800000&amp;guid=ab406ac6b4bb04736996d4e8bec74fdf&amp;type=3#box" tooltip="Package Manager" class="tall-image" style="width: 25px; max-width: 25px; min-width: 25px;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Package%20Manager.svg?fileID=7388822144124034973&amp;guid=1cf29674dc0684ba2ab5e85ea9c5136d&amp;type=3#Package Manager&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarButton name="Profiler" icon-image="project://database/Assets/-TEXTURES/Editor/profiler.png?fileID=2800000&amp;guid=93e5a4435d55a4443be2ab6d0fbe123c&amp;type=3#profiler" tooltip="Profiler" class="tall-image" style="width: 25px; max-width: 25px; min-width: 25px;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Profiler.svg?fileID=7388822144124034973&amp;guid=9f74108cdef994d549ce5da1b278e932&amp;type=3#Profiler&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarButton name="FrameDebugger" icon-image="project://database/Assets/-TEXTURES/Editor/framedebugger.png?fileID=2800000&amp;guid=ce0b743f77f1f5b418a96afe8a3b2763&amp;type=3#framedebugger" tooltip="Frame Debugger" class="tall-image" style="width: 25px; max-width: 25px; min-width: 25px;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Frame%20Debugger.svg?fileID=7388822144124034973&amp;guid=610082e6c766040d599465816571620c&amp;type=3#Frame Debugger&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarButton name="ToolbarSettings" icon-image="project://database/Assets/-TEXTURES/Editor/settings.png?fileID=2800000&amp;guid=015989545f508924584e20a59bf4515e&amp;type=3#settings" tooltip="Toolbar Settings" class="tall-image" style="width: 25px; max-width: 25px; min-width: 25px;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/-TEXTURES/Editor%20SVG%20Icons/Settings.svg?fileID=7388822144124034973&amp;guid=8eb45b745b38e4fcea2156efb45ce4b4&amp;type=3#Settings&apos;);" />
+            </uie:ToolbarButton>
+            <uie:ToolbarMenu tabindex="0" parse-escape-sequences="true" display-tooltip-when-elided="true" text="Select Scene" name="SceneSelector" style="-unity-font-style: bold;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

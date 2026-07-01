@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9752b0c8e144801967e6897679604b, type: 3}
+  m_Name: vHierarchy Data
+  m_EditorClassIdentifier: 
+  sceneDatas_byGuid:
+    keys:
+    - d8bffe9ab7f8ab047bcfb76b93c5a11c
+    values:
+    - goDatas_byGlobalId:
+        keys:
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-1196131560-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-991563921-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-875423669-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-1965690613-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-2124817692-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-455561297-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-2131752812-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-529330553-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-1973942790-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-248146395-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-734008917-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-50173223-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-1107000698-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-1805057820-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-802719870-0
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-6910163200926178147-4232674046678051463
+        - globalObjectIdString: GlobalObjectId_V1-2-d8bffe9ab7f8ab047bcfb76b93c5a11c-845985483-0
+        values:
+        - colorIndex: 2
+          iconNameOrGuid: EditorSettings Icon
+        - colorIndex: 3
+          iconNameOrGuid: d_console.warnicon
+        - colorIndex: 6
+          iconNameOrGuid: d_GridLayoutGroup Icon
+        - colorIndex: 7
+          iconNameOrGuid: d_ScriptableObject Icon
+        - colorIndex: 5
+          iconNameOrGuid: d_Terrain Icon
+        - colorIndex: 6
+          iconNameOrGuid: d_VideoPlayer Icon
+        - colorIndex: 2
+          iconNameOrGuid: d_VerticalLayoutGroup Icon
+        - colorIndex: 2
+          iconNameOrGuid: PhysicsMaterial2D Icon
+        - colorIndex: 2
+          iconNameOrGuid: d_GridLayoutGroup Icon
+        - colorIndex: 2
+          iconNameOrGuid: d_VisualEffect Icon
+        - colorIndex: 2
+          iconNameOrGuid: d_NavMeshAgent Icon
+        - colorIndex: 3
+          iconNameOrGuid: d_orangeLight
+        - colorIndex: 3
+          iconNameOrGuid: d_orangeLight
+        - colorIndex: 3
+          iconNameOrGuid: d_orangeLight
+        - colorIndex: 3
+          iconNameOrGuid: d_orangeLight
+        - colorIndex: 0
+          iconNameOrGuid: Prefab Icon
+        - colorIndex: 0
+          iconNameOrGuid: BoxCollider Icon

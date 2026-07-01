@@ -1,0 +1,62 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Transform%20Extended/TransformExtended.uss?fileID=7433441132597879392&amp;guid=b09b49dcc62994026b1cb7a10214880d&amp;type=3#TransformExtended" />
+    <ui:VisualElement name="Root" class="root">
+        <ui:VisualElement name="MainArea" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement name="CopyPasteArea" class="buttons-column buttons-column__double">
+                <ui:VisualElement name="PositionCP" class="buttons-column-row">
+                    <ui:Button name="Copy" tooltip="Copy Position">
+                        <ui:VisualElement name="Icon" />
+                    </ui:Button>
+                    <ui:Button name="Paste" tooltip="Paste Position">
+                        <ui:VisualElement name="Icon" />
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="RotationCP" class="buttons-column-row">
+                    <ui:Button name="Copy" tooltip="Copy Rotation">
+                        <ui:VisualElement name="Icon" />
+                    </ui:Button>
+                    <ui:Button name="Paste" tooltip="Paste Rotation">
+                        <ui:VisualElement name="Icon" />
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="ScaleCP" class="buttons-column-row">
+                    <ui:Button name="Copy" tooltip="Copy Scale">
+                        <ui:VisualElement name="Icon" />
+                    </ui:Button>
+                    <ui:Button name="Paste" tooltip="Paste Scale">
+                        <ui:VisualElement name="Icon" />
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:IMGUIContainer name="DefaultTransform" style="flex-shrink: 0; flex-grow: 1;" />
+            <ui:VisualElement name="ResetArea" class="buttons-column">
+                <ui:VisualElement name="PositionR" tooltip="Reset Position" class="buttons-column-row">
+                    <ui:Button name="Reset">
+                        <ui:VisualElement name="Icon" />
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="RotationR" tooltip="Reset Rotation" class="buttons-column-row">
+                    <ui:Button name="Reset">
+                        <ui:VisualElement name="Icon" />
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:VisualElement name="ScaleR" tooltip="Reset Scale" class="buttons-column-row">
+                    <ui:Button name="Reset">
+                        <ui:VisualElement name="Icon" />
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ComponentCPR" class="buttons-row" style="flex-grow: 1; flex-direction: row; margin-top: 6px;">
+            <ui:Button name="Copy" tooltip="Copy Component">
+                <ui:VisualElement name="Icon" style="flex-grow: 1;" />
+            </ui:Button>
+            <ui:Button name="Paste" tooltip="Paste Component">
+                <ui:VisualElement name="Icon" style="flex-grow: 1;" />
+            </ui:Button>
+            <ui:Button name="Reset" tooltip="Reset Component">
+                <ui:VisualElement name="Icon" style="flex-grow: 1;" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

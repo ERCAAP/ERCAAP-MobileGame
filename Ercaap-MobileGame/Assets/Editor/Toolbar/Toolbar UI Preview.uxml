@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Template name="ToolbarUI Left" src="project://database/Assets/Editor/Toolbar/ToolbarUI%20Left.uxml?fileID=9197481963319205126&amp;guid=811c7f4741f174c22af52bda29ecc815&amp;type=3#ToolbarUI Left" />
+    <ui:Template name="ToolbarUI Right" src="project://database/Assets/Editor/Toolbar/ToolbarUI%20Right.uxml?fileID=9197481963319205126&amp;guid=a2714a3f77a584d57955f83ebb17a6a9&amp;type=3#ToolbarUI Right" />
+    <Style src="project://database/Assets/Editor/Toolbar/Toolbar%20Style.uss?fileID=7433441132597879392&amp;guid=b921f350968b548589efeffd17d4ec6d&amp;type=3#Toolbar Style" />
+    <ui:VisualElement name="Root" style="flex-direction: row;">
+        <ui:VisualElement name="DefaultLeft" class="unity-default-area" style="width: 100px; max-width: 100px; min-width: 100px;" />
+        <ui:Instance template="ToolbarUI Left" name="ToolbarUI Left" style="flex-shrink: 0; flex-grow: 1;" />
+        <ui:VisualElement name="PlayModeArea" class="unity-default-area" style="width: 100px; max-width: 100px; min-width: 100px;" />
+        <ui:Instance template="ToolbarUI Right" name="ToolbarUI Right" style="flex-shrink: 0; flex-grow: 1;" />
+        <ui:VisualElement name="DefaultRight" class="unity-default-area" style="width: 244px; max-width: 244px; min-width: 244px;" />
+    </ui:VisualElement>
+</ui:UXML>

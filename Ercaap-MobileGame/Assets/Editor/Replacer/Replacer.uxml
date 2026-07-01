@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Replacer/Replacer%20Style.uss?fileID=7433441132597879392&amp;guid=fdda644b76c3f4e79ab83ca26c89021b&amp;type=3#Replacer Style" />
+    <uie:Toolbar>
+        <ui:DropdownField label="Replace" index="0" choices="Font, Item" name="ModSelector" style="flex-grow: 1; flex-shrink: 1;" />
+    </uie:Toolbar>
+    <ui:VisualElement name="FontReplacer" style="flex-grow: 1;">
+        <uie:Toolbar>
+            <uie:ObjectField label="Target Font Asset" name="TargetFont" type="TMPro.TMP_FontAsset, Unity.TextMeshPro" style="flex-basis: 1px; flex-grow: 1;" />
+            <uie:ToolbarButton text="Scan" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScanButton" style="-unity-text-align: middle-center; max-width: 50px; width: 50px; min-width: 50px;" />
+        </uie:Toolbar>
+        <ui:VisualElement name="Main" class="ListArea">
+            <ui:Label text="TMP_Text List" />
+            <ui:ListView name="TextList" header-title="All TMP_Texts" enabled="false" show-bound-collection-size="false" />
+        </ui:VisualElement>
+        <ui:VisualElement view-data-key="Footer" name="Footer" class="ListArea">
+            <ui:Label text="Font Conversion Settings" />
+            <ui:ListView name="LS_Comparator" reorder-mode="Animated" selection-type="Multiple" header-title="Current Materials" item-template="Comparator Drawer UI" focusable="false" show-bound-collection-size="false" />
+        </ui:VisualElement>
+        <ui:Button text="Replace Fonts" name="FontReplace" />
+    </ui:VisualElement>
+    <ui:VisualElement name="ItemReplacer" style="flex-grow: 1; display: flex;">
+        <ui:VisualElement name="Main" class="ControlArea">
+            <uie:ObjectField label="Target Object" name="TargetObject" type="UnityEngine.GameObject, UnityEngine.CoreModule" />
+            <ui:Toggle label="Custom Rotation" name="CanRotate" />
+            <ui:Vector3Field label="Rotation" name="RotationField" />
+        </ui:VisualElement>
+        <ui:VisualElement view-data-key="Footer" name="Footer" class="ListArea" style="flex-grow: 1;">
+            <ui:Label text="Selectedet Objects" />
+            <ui:ListView name="SelectedObjects" reorder-mode="Animated" selection-type="Multiple" header-title="Current Materials" item-template="Comparator Drawer UI" focusable="false" show-bound-collection-size="false" style="height: 100%;" />
+        </ui:VisualElement>
+        <ui:Button text="Replace Objects" name="ItemReplace" />
+    </ui:VisualElement>
+</ui:UXML>
